@@ -7,8 +7,12 @@ public interface Message {
     String JWT_AUTHENTICATION_FAILED = "Jwt authentication failed";
     String EXPIRED_OR_INVALID_TOKEN = "Invalid or expired token";
     String USER_NOT_FOUND = "User: %s not found";
+    String BILL_CANNOT_ADD_TO_YOURSELF = "Cannot add bill to yourself";
+    String BILL_PARTICIPANT_CANNOT_BE_EMPTY = "Bill participant cannot be empty";
+    String BILL_NOT_FOUND = "Bill: %s not found";
     // Error
     String AUTH_SERVICE_ERROR = "AuthService#{} error with request: {}";
+    String BILL_SERVICE_ERROR = "BillService#{} error with request: {}";
     // Exception
     String INVALID_ID_TOKEN = "Invalid ID token";
 
