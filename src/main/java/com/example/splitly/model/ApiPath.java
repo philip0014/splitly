@@ -6,5 +6,6 @@ public interface ApiPath {
 
     String AUTH = BASE_API + "/auth";
     String BILL = BASE_API + "/bill";
+    String FRIEND = BASE_API + "/friend";
 
 }
