@@ -19,6 +19,8 @@ public interface Message {
     String AUTH_SERVICE_ERROR = "AuthService#{} error with request: {}";
     String BILL_SERVICE_ERROR = "BillService#{} error with request: {}";
     String FRIEND_SERVICE_ERROR = "FriendService#{} error with request: {}";
+    String SEARCH_SERVICE_ERROR = "SearchService#{} error with request: {}";
+
     // Exception
     String INVALID_ID_TOKEN = "Invalid ID token";
 
