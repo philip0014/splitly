@@ -9,5 +9,6 @@ public interface ApiPath {
     String BILL = BASE_API + "/bill";
     String FRIEND = BASE_API + "/friend";
     String SEARCH = BASE_API + "/search";
+    String PROFILE = BASE_API + "/profile";
 
 }
